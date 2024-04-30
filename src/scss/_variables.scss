@@ -1,0 +1,39 @@
+// Fonts
+
+// Define @font-face for Neue Machina Ultrabold
+@font-face {
+  font-family: 'Neue Machina Ultrabold';
+  src: url('../assets/fonts/NeueMachina-Ultrabold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+// Define @font-face for Neue Machina Regular
+@font-face {
+  font-family: 'Neue Machina Regular';
+  src: url('../assets/fonts/NeueMachina-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Define @font-face for Helvetica Neue Medium Extended
+@font-face {
+  font-family: 'Helvetica Neue Medium Extended';
+  src: url('../assets/fonts/Helvetica Neue Medium Extended.ttf')
+    format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+// Define @font-face for Helvetica Neue Light
+@font-face {
+  font-family: 'Helvetica Neue Light';
+  src: url('../assets/fonts/HelveticaNeueLt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+$fontHeader: 'Neue Machina Ultrabold', sans-serif;
+$fontText: 'Helvetica Neue Light', 'Arial', sans-serif;
+
+// Colors

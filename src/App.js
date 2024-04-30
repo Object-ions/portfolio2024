@@ -5,11 +5,13 @@ import Programming from './pages/Programming';
 import About from './pages/About';
 import Design from './pages/Design';
 import Footer from './components/layout/Footer';
+import VideoBackground from './components/VideoBackground';
 
 function App() {
   return (
     <>
       <Router>
+        <VideoBackground />
         <div className="page">
           <Header />
 

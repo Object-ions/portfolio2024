@@ -1,3 +1,6 @@
+@import './scss/variables';
+@import './scss/mixins';
+
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +12,45 @@ html::-webkit-scrollbar {
 }
 
 body {
-  background: #000;
+  @include underline-a;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: $fontText;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: -1;
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+  }
 }
 
 .page {
@@ -22,7 +59,6 @@ body {
   margin: 2rem;
   /* this two goes together */
 
-  background: grey;
   border: 1px solid #fff;
   display: flex;
   flex-direction: column;
@@ -32,8 +68,24 @@ body {
 }
 
 .header {
-  background-color: red;
-  height: 8rem;
+  // background-color: red;
+  color: #fff;
+  height: 10rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  h1 {
+    display: flex;
+    align-items: center;
+    font-family: $fontHeader;
+    font-size: 5rem;
+
+    small {
+      font-size: 2rem;
+    }
+  }
 }
 
 .main {
