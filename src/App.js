@@ -4,7 +4,6 @@ import Header from './components/layout/Header';
 import Programming from './pages/Programming';
 import About from './pages/About';
 import Design from './pages/Design';
-import Footer from './components/layout/Footer';
 import VideoBackground from './components/VideoBackground';
 
 function App() {
@@ -23,8 +22,6 @@ function App() {
               <Route path="/design" element={<Design />} />
             </Routes>
           </main>
-
-          <Footer />
         </div>
       </Router>
     </>
