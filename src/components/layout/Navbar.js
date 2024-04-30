@@ -1,10 +1,27 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="navbar" style={{ height: '100%' }}>
-      Navbar
-    </div>
+    <ul className="navbar">
+      <li>
+        <Link to={'/about'}>
+          <small>{'>'} </small>
+          About
+        </Link>
+      </li>
+      <li>
+        <Link to={'/'}>
+          <small>{'>'} </small>
+          Programming
+        </Link>
+      </li>
+      <li>
+        <Link to={'/design'}>
+          <small>{'>'} </small>
+          Design
+        </Link>
+      </li>
+    </ul>
   );
 };
 

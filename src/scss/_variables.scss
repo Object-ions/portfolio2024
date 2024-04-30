@@ -1,4 +1,5 @@
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Mono:wght@100;200;300&display=swap');
 
 // Define @font-face for Neue Machina Ultrabold
 @font-face {
@@ -35,5 +36,9 @@
 
 $fontHeader: 'Neue Machina Ultrabold', sans-serif;
 $fontText: 'Helvetica Neue Light', 'Arial', sans-serif;
+$fontMono: 'Roboto Mono', monospace;
 
 // Colors
+$colorBlack: #111;
+$colorWhite: #fff;
+$colorSpecial: #41e0d0;
