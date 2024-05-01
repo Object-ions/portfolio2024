@@ -16,8 +16,10 @@ const ProjectCard = ({ project }) => {
       <hr />
       <p>{project.description}</p>
       <ul className="tags">
-        {project.tags.map((tag) => (
-          <li className="tag">{tag}</li>
+        {project.tags.map((tag, index) => (
+          <li className="tag" key={index}>
+            {tag}
+          </li>
         ))}
       </ul>
       <div className="links">
