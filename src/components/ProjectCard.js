@@ -1,7 +1,14 @@
+import { useState } from 'react';
 import { ReactComponent as ArrowOutward } from '../assets/svg/arrow_outward.svg';
+import ImageModal from './ImageModal';
 
 const ProjectCard = ({ project }) => {
+  const [activeImage, setActiveImage] = useState(null);
+
   if (!project) return null;
+
+  const openImage = (image) => setActiveImage(image);
+  const closeImage = () => setActiveImage(null);
 
   return (
     <div className="project-card">
@@ -30,15 +37,19 @@ const ProjectCard = ({ project }) => {
       </div>
       <div className="images">
         {project.images.map((image, index) => (
-          <div className="image-wrapper">
-            <img
-              key={index}
-              src={image}
-              alt={`Screenshot of ${project.title}`}
-            />
+          <div
+            className="image-wrapper"
+            key={index}
+            onClick={() => openImage(image)}
+          >
+            <img src={image} alt={`Screenshot of ${project.title}`} />
           </div>
         ))}
       </div>
+
+      {activeImage && (
+        <ImageModal image={activeImage} closeImage={closeImage} />
+      )}
     </div>
   );
 };
