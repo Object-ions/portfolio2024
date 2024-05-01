@@ -11,15 +11,26 @@
       content: '';
       position: absolute;
       left: 0;
-      bottom: -0.1rem;
+      bottom: -0.2rem;
       width: 0;
       height: 0.1rem;
-      background-color: #fff;
+      background-color: $colorSpecial;
       transition: width 0.3s linear;
     }
 
     &:hover::before {
       width: 100%;
+    }
+
+    &:hover::after {
+      content: ' <';
+      position: absolute;
+      top: 0;
+      right: -0.5rem;
+      width: 0;
+      height: 0.1rem;
+      background-color: $colorSpecial;
+      transition: width 0.3s linear;
     }
 
     &.active::before {

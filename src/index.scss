@@ -66,15 +66,15 @@ ul {
 
 .page {
   /* this two goes together */
-  height: calc(100vh - 4rem);
-  margin: 2rem;
+  height: calc(100vh - 3rem);
+  margin: 1.5rem;
   /* this two goes together */
 
   border: 1px solid $colorWhite;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -110,7 +110,7 @@ ul {
 }
 
 .navbar {
-  margin: 0 2rem 1rem 0;
+  margin: 0 1rem 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -138,6 +138,99 @@ ul {
   display: flex;
 
   .programming {
-    @include underline-a;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+
+    .project-list {
+      @include underline-a;
+      li {
+        margin: 0.5rem 0;
+
+        a:hover {
+          color: $colorSpecial;
+        }
+      }
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      text-align: center;
+
+      hr {
+        border: 1px solid $colorSpecial;
+        width: 100%;
+        margin: 0.5rem;
+      }
+
+      .tags {
+        display: flex;
+        gap: 0.25rem;
+        margin: 0.7rem 0;
+
+        .tag {
+          font-size: 0.75rem;
+          padding: 0.25rem;
+          color: $colorSpecial;
+
+          &:hover {
+            background: $colorSpecial;
+            color: #000;
+          }
+        }
+      }
+
+      .links {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem;
+        font-size: 0.75rem;
+
+        .github {
+          padding: 0.5rem;
+          border: 1px solid #000;
+
+          &:hover {
+            border: 1px solid #fff;
+          }
+        }
+
+        .live-demo {
+          border: 1px solid $colorSpecial;
+          color: $colorSpecial;
+          padding: 0.5rem;
+          font-size: 1.1rem;
+
+          &:hover {
+            border: 1px solid $colorSpecial;
+            background: $colorSpecial;
+            color: #000;
+          }
+
+          svg {
+            fill: $colorSpecial;
+          }
+        }
+      }
+
+      .images {
+        display: flex;
+        gap: 0.7rem;
+        margin: 1rem;
+
+        .image-wrapper {
+          width: 50%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
   }
 }
