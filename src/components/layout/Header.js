@@ -75,7 +75,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="external-links">
-          {windowLength <= 975 && <NavbarLinks />}
+          {windowLength <= 820 && <NavbarLinks />}
         </div>
       </div>
     </div>

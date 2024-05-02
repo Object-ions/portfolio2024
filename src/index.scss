@@ -199,6 +199,20 @@ ul {
 
     .project-list {
       @include underline-a;
+
+      h3 {
+        margin-left: 5px;
+      }
+
+      hr {
+        margin: 0.25rem 0;
+        width: 240px;
+      }
+
+      .top-hr {
+        margin-top: 2.5rem;
+      }
+
       li {
         margin: 0.5rem 0;
 

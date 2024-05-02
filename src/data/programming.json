@@ -1,6 +1,7 @@
 [
   {
-    "itemId": 1,
+    "id": 13,
+    "tech": "react",
     "title": "Pure Mineral Aesthetics",
     "description": "This project is a conceptual mockup website designed and developed for a skincare and spa business. It's aimed at clients who own or are planning to start a skincare company and require a web presence that reflects the quality and ethos of their brand.",
     "tags": [
@@ -21,7 +22,8 @@
     ]
   },
   {
-    "itemId": 2,
+    "id": 12,
+    "tech": "react",
     "title": "Birth of Venus",
     "description": "This React application provides an interactive exploration of the art piece - Birth of Venus, by Sandro Botticelli. Focusing on the detailed annotations and examination of the artwork. It includes a web-based interface allowing users to learn about the historical and artistic significance of the piece.",
     "tags": ["React", "JavaScript", "HTML", "SASS", "Webpack"],
@@ -33,7 +35,8 @@
     ]
   },
   {
-    "itemId": 3,
+    "id": 11,
+    "tech": "react",
     "title": "Jelly Belly Wiki - UI",
     "description": "The Jelly Belly Wiki project uniquely combines front-end and back-end technologies, inspired by a passion for Jelly Belly confections. This project integrates a React-based user interface with a robust C# .NET EF Core backend, all centered around a bespoke API.",
     "tags": [
@@ -54,7 +57,8 @@
     ]
   },
   {
-    "itemId": 4,
+    "id": 10,
+    "tech": "c#",
     "title": "Jelly Belly Wiki - API",
     "description": "This API provides detailed information about Jelly Belly beans, including facts, milestones, recipes, and bean details. It is designed to be a comprehensive resource for Jelly Belly enthusiasts and researchers.",
     "tags": [
@@ -71,7 +75,8 @@
     "images": ["/images/jbw-api/JBW-api-1.png", "/images/jbw-api/JBW-api-2.png"]
   },
   {
-    "itemId": 6,
+    "id": 9,
+    "tech": "react",
     "title": "Feedback App",
     "description": "This project is a Feedback UI application built with React. It allows users to leave feedback for a service or product with a rating and comments. Featuring full CRUD functionality, the application has a clean and intuitive user interface and uses context to manage state within the application.",
     "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
@@ -83,7 +88,8 @@
     ]
   },
   {
-    "itemId": 7,
+    "id": 8,
+    "tech": "c#",
     "title": "Animal Shelter API",
     "description": "A web Api that allows the user to make API calls in order to check the database. The user can create, remove, update, and see detailed information about the animals in the animal shelter.",
     "tags": [
@@ -103,7 +109,8 @@
     ]
   },
   {
-    "itemId": 8,
+    "id": 7,
+    "tech": "c#",
     "title": "EOL - Epicodus Online",
     "description": "EOL is an AIM-inspired message service that allows users to communicate real-time in a public chat room, or one-on-one in a private conversation with another user.",
     "tags": [
@@ -123,7 +130,8 @@
     "images": ["/images/eol/eol-1.png", "/images/eol/eol-2.png"]
   },
   {
-    "itemId": 9,
+    "id": 6,
+    "tech": "c#",
     "title": "Treats Management System",
     "description": "This web application designed for Pierre to showcase his collection of treats. The application emphasizes user experience, complete with an authentication system and a many-to-many relationship between treats and flavors.",
     "tags": [
@@ -139,7 +147,8 @@
     "images": ["/images/sst/sst-1.png", "/images/sst/sst-2.png"]
   },
   {
-    "itemId": 11,
+    "id": 5,
+    "tech": "c#",
     "title": "Vendor Order Tracker",
     "description": "The Vendor Order Management System is a specialized MVC web application developed using .NET. It is engineered to facilitate the management and tracking of orders from various vendors. This application stands out for its functionality and utility in simplifying complex vendor interactions. The application's features include the ability to add and manage vendors, track orders for each vendor, view detailed information about each order, and an aesthetic user interface for easy navigation and management.",
     "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
@@ -148,7 +157,8 @@
     "images": ["/images/vendors/vendors-1.png", "/images/vendors/vendors-2.png"]
   },
   {
-    "itemId": 12,
+    "id": 4,
+    "tech": "javascript",
     "title": "Pig Dice Game",
     "description": "The Pig Dice Game is an interactive, two-player dice game created using HTML, CSS, and JavaScript. The game is designed to test your luck as you compete against another player to reach a total score of 100 points first. The application keeps track of the scores for each player, and the state of the game, providing an engaging and dynamic user experience. in this version, I've added new functionalities and revamped the UI to provide an even more engaging and dynamic user experience.",
     "tags": ["HTML", "CSS", "JavaScript"],
@@ -160,7 +170,8 @@
     ]
   },
   {
-    "itemId": 13,
+    "id": 3,
+    "tech": "javascript",
     "title": "Plant Professor",
     "description": "Plant Professor is a reimagined version of the original project, with a focus on enhancing the user interface. Originally contributing to the backend of the initial project, my background as a former designer compelled me to revisit the frontend. This redesigned version embodies my journey to polish the design, improve the overall user experience, and enrich my CSS expertise while integrating additional UI utilities.",
     "tags": [
@@ -178,7 +189,8 @@
     "images": ["/images/plant-api/plant-1.png", "/images/plant-api/plant-2.png"]
   },
   {
-    "itemId": 14,
+    "id": 2,
+    "tech": "javascript",
     "title": "Currency Converter",
     "description": "Currency Converter is a simple web application that allows users to convert between different currencies. It fetches the most up-to-date exchange rates from the ExchangeRate-API.",
     "tags": [
@@ -198,7 +210,8 @@
     ]
   },
   {
-    "itemId": 15,
+    "id": 1,
+    "tech": "javascript",
     "title": "Pizza Parlor",
     "description": "This project is a detailed, user-friendly interface for creating a custom pizza order that demonstrates real-world functionalities of a pizza ordering system.",
     "tags": ["HTML", "CSS", "JavaScript"],
