@@ -34,7 +34,7 @@
   },
   {
     "itemId": 3,
-    "title": "Jelly Belly Wiki - User Interface",
+    "title": "Jelly Belly Wiki - UI",
     "description": "The Jelly Belly Wiki project uniquely combines front-end and back-end technologies, inspired by a passion for Jelly Belly confections. This project integrates a React-based user interface with a robust C# .NET EF Core backend, all centered around a bespoke API.",
     "tags": [
       "HTML",
@@ -137,15 +137,6 @@
     "live": ["https://pierres-sweet-and-savory-treats.onrender.com"],
     "github": "https://github.com/Object-ions/SST.Solution",
     "images": ["/images/sst/sst-1.png", "/images/sst/sst-2.png"]
-  },
-  {
-    "itemId": 10,
-    "title": "Pierre's Bakery - Console App",
-    "description": "This console application helps customers place their orders and calculate the total cost. Pierre's Bakery offers special deals on bread loaves and pastries. Price for bread: 5$ for a loaf or buy 2 get 1 free. Price for pastry: 2$ for a piece or buy 3 get 1 free. The app features intuitive UI design to provide a clear user experience.",
-    "tags": ["C#", ".NET 6", "MSTesting", "BASH"],
-    "live": [],
-    "github": "https://github.com/Object-ions/PierresBakery",
-    "images": ["/images/pierre-console/pierre-1.png"]
   },
   {
     "itemId": 11,

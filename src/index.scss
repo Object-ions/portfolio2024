@@ -80,7 +80,7 @@ ul {
 
 .header {
   color: $colorWhite;
-  height: 10rem;
+  height: auto;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -99,12 +99,9 @@ ul {
 
   a {
     font-family: $fontMono;
-    font-size: 0.75rem;
-    padding: 0.25rem 0.5rem;
 
     &:hover {
-      color: #000;
-      background: $colorSpecial;
+      color: $colorSpecial;
     }
   }
 }
@@ -333,3 +330,5 @@ ul {
     }
   }
 }
+
+@import './scss/responsive';
