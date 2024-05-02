@@ -67,6 +67,11 @@ const Header = () => {
       </Link>
       <div className="header-links">
         <div className="internal-links">
+          {windowLength <= 820 && (
+            <Link to="/">
+              <h3>{'>'} About</h3>
+            </Link>
+          )}
           <Link to="/programming">
             <h3>{'>'} Full-Stack Developer</h3>
           </Link>

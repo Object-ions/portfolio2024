@@ -76,6 +76,13 @@ ul {
   justify-content: space-between;
   padding: 1rem;
   box-sizing: border-box;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+  }
 }
 
 .header {
@@ -106,44 +113,47 @@ ul {
   }
 }
 
-.navbar {
-  margin: 0 1rem 1rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
-  ul {
-    li {
-      a {
-        display: flex;
-        font-family: $fontMono;
-        padding: 0.15rem 0.5rem;
-
-        &:hover {
-          color: #000;
-          background: $colorSpecial;
-        }
-
-        small {
-          padding-right: 0.5rem;
-        }
-      }
-    }
-  }
-
-  .outer-link {
-    display: flex;
-    align-items: center;
-  }
-
-  .space {
-    margin: 0.75rem;
-  }
-}
-
 .main {
   flex-grow: 1;
   display: flex;
+  position: relative;
+
+  .navbar {
+    position: absolute;
+    bottom: 0;
+    margin: 0 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    ul {
+      li {
+        a {
+          display: flex;
+          font-family: $fontMono;
+          padding: 0.15rem 0.5rem;
+
+          &:hover {
+            color: #000;
+            background: $colorSpecial;
+          }
+
+          small {
+            padding-right: 0.5rem;
+          }
+        }
+      }
+    }
+
+    .outer-link {
+      display: flex;
+      align-items: center;
+    }
+
+    .space {
+      margin: 0.75rem;
+    }
+  }
 
   .about {
     padding: 2rem;
@@ -193,9 +203,9 @@ ul {
 
   .programming {
     display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 3fr;
+    align-items: start;
 
     .project-list {
       @include underline-a;
@@ -206,7 +216,7 @@ ul {
 
       hr {
         margin: 0.25rem 0;
-        width: 240px;
+        width: 220px;
       }
 
       .top-hr {
@@ -214,7 +224,12 @@ ul {
       }
 
       li {
-        margin: 0.5rem 0;
+        margin: 0.25rem 0;
+        font-size: 0.9rem;
+
+        a {
+          text-align: left;
+        }
 
         a:hover {
           color: $colorSpecial;
@@ -300,11 +315,12 @@ ul {
 
       .images {
         display: flex;
+        flex-direction: column;
         gap: 0.7rem;
         margin: 1rem;
 
         .image-wrapper {
-          width: 50%;
+          width: 100%;
 
           img {
             width: 100%;
