@@ -7,6 +7,7 @@
 
     a {
       padding: 0;
+      width: 100%;
     }
 
     .header-links {
@@ -28,6 +29,10 @@
   }
   .main {
     align-items: flex-start;
+
+    .navbar {
+      display: none;
+    }
 
     .about {
       h2 {
@@ -81,9 +86,5 @@
         }
       }
     }
-  }
-
-  .navbar {
-    display: none;
   }
 }
