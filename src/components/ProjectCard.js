@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { ReactComponent as ArrowOutward } from '../assets/svg/arrow_outward.svg';
 import ImageModal from './ImageModal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectCard = ({ project }) => {
   const [activeImage, setActiveImage] = useState(null);
@@ -25,7 +26,11 @@ const ProjectCard = ({ project }) => {
       <div className="links">
         <a href={project.live} target="_blank" rel="noopener noreferrer">
           <span className="live-demo">
-            Live Demo <ArrowOutward width="15px" height="15px" />
+            Live Demo{' '}
+            <FontAwesomeIcon
+              icon={faArrowUpRightFromSquare}
+              style={{ fontSize: '12px' }}
+            />
           </span>
         </a>
         <a
@@ -35,6 +40,10 @@ const ProjectCard = ({ project }) => {
           className="github"
         >
           GitHub Repo
+          <FontAwesomeIcon
+            icon={faArrowUpRightFromSquare}
+            style={{ fontSize: '12px' }}
+          />
         </a>
       </div>
       <div className="images">

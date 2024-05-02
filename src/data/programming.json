@@ -71,24 +71,6 @@
     "images": ["/images/jbw-api/JBW-api-1.png", "/images/jbw-api/JBW-api-2.png"]
   },
   {
-    "itemId": 5,
-    "title": "Jelly Belly Wiki - Data Collection",
-    "description": "This project focuses on the data collection and processing data for the Jelly Belly API, primarily using Python for web scraping from the official Jelly Belly website.",
-    "tags": [
-      "Python",
-      "Selenium WebDriver",
-      "BeautifulSoup",
-      "JSON",
-      "AI - ChatGPT 4"
-    ],
-    "live": [],
-    "github": "https://github.com/Object-ions/Jelly-Belly-Wiki-API-Data-Collection",
-    "images": [
-      "/images/jbw-scrape/JBW-scrape-1.png",
-      "/images/jbw-scrape/JBW-scrape-2.png"
-    ]
-  },
-  {
     "itemId": 6,
     "title": "Feedback App",
     "description": "This project is a Feedback UI application built with React. It allows users to leave feedback for a service or product with a rating and comments. Featuring full CRUD functionality, the application has a clean and intuitive user interface and uses context to manage state within the application.",

@@ -115,21 +115,32 @@ ul {
   flex-direction: column;
   justify-content: flex-end;
 
-  li {
-    a {
-      display: flex;
-      font-family: $fontMono;
-      padding: 0.25rem 0.5rem;
+  ul {
+    li {
+      a {
+        display: flex;
+        font-family: $fontMono;
+        padding: 0.15rem 0.5rem;
 
-      &:hover {
-        color: #000;
-        background: $colorSpecial;
-      }
+        &:hover {
+          color: #000;
+          background: $colorSpecial;
+        }
 
-      small {
-        padding-right: 0.5rem;
+        small {
+          padding-right: 0.5rem;
+        }
       }
     }
+  }
+
+  .outer-link {
+    display: flex;
+    align-items: center;
+  }
+
+  .space {
+    margin: 0.75rem;
   }
 }
 
@@ -205,15 +216,26 @@ ul {
           color: $colorSpecial;
           padding: 0.5rem;
           font-size: 1.1rem;
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-left: 0.5rem;
+          }
 
           &:hover {
             border: 1px solid $colorSpecial;
             background: $colorSpecial;
             color: #000;
           }
+        }
+
+        .github {
+          display: flex;
+          align-items: center;
 
           svg {
-            fill: $colorSpecial;
+            margin-left: 0.5rem;
           }
         }
       }
