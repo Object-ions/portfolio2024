@@ -8,8 +8,9 @@ const About = () => {
       </h2>
       <div className="about-text">
         <p>
-          My journey began with a deep appreciation for aesthetics, leading me
-          to study Product Design at 'Shenkar College of Engineering and
+          <h3>Hi, my name is Moses,</h3>
+          and my journey began with a deep appreciation for aesthetics, leading
+          me to study Product Design at 'Shenkar College of Engineering and
           Design'. This background has given me a keen eye for detail and a
           solid foundation in creating user-friendly designs.
         </p>

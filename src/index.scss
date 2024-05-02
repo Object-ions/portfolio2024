@@ -164,6 +164,10 @@ ul {
 
     p {
       margin-bottom: 16px;
+
+      h3 {
+        font-family: $fontHeader;
+      }
     }
 
     p:last-child {
@@ -213,6 +217,7 @@ ul {
       align-items: center;
       justify-content: space-around;
       text-align: center;
+      margin-right: 1rem;
 
       hr {
         border: 1px solid $colorSpecial;

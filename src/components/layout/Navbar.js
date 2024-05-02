@@ -7,13 +7,13 @@ const Navbar = () => {
     <div className="navbar">
       <ul className="navbar-selection">
         <li>
-          <Link to={'/about'}>
+          <Link to={'/'}>
             <small>{'>'} </small>
             About
           </Link>
         </li>
         <li>
-          <Link to={'/'}>
+          <Link to={'/programming'}>
             <small>{'>'} </small>
             Programming
           </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
         <li className="space"> </li>
         <li>
           <a
-            href="http://google.com"
+            href="https://drive.google.com/file/d/17ZbXvH_BpdkqzDiOV629P5vE5Q5ue6SK/view?usp=sharing"
             alt="resume"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="http://google.com"
+            href="https://github.com/Object-ions"
             alt="resume"
             target="_blank"
             rel="noopener noreferrer"
@@ -57,7 +57,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href="http://google.com"
+            href="https://www.linkedin.com/in/moses-a-p/"
             alt="resume"
             target="_blank"
             rel="noopener noreferrer"
