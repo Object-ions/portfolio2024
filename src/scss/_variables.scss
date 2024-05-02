@@ -34,8 +34,10 @@
   font-style: normal;
 }
 
-$fontHeader: 'Neue Machina Ultrabold', sans-serif;
-$fontText: 'Helvetica Neue Light', 'Arial', sans-serif;
+$fontHeader: 'Neue Machina regular', sans-serif;
+$fontHeaderBold: 'Neue Machina Ultrabold', sans-serif;
+// $fontText: 'Helvetica Neue Light', 'Arial', sans-serif;
+$fontText: 'Roboto Mono', monospace;
 $fontMono: 'Roboto Mono', monospace;
 
 // Colors
