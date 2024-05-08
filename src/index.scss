@@ -111,6 +111,23 @@ ul {
       color: $colorSpecial;
     }
   }
+
+  .header-links {
+    margin: 0.7rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .internal-links {
+      width: auto;
+    }
+
+    .external-links {
+      width: auto;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
 }
 
 .main {
@@ -167,6 +184,7 @@ ul {
       margin-bottom: 1rem;
       text-align: center;
       color: $colorSpecial;
+      font-size: 2rem;
     }
 
     p {
@@ -240,15 +258,14 @@ ul {
     .project-card {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-around;
-      text-align: center;
       margin-right: 1rem;
 
       hr {
         border: 1px solid $colorSpecial;
         width: 100%;
-        margin: 0.5rem;
+        margin: 0.5rem 0;
       }
 
       .tags {
@@ -269,10 +286,10 @@ ul {
       }
 
       .links {
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
-        margin: 1rem;
+        margin: 1rem 0;
         font-size: 0.75rem;
 
         .github {

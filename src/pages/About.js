@@ -23,7 +23,7 @@ const About = () => {
           JavaScript, Node.js, ASP.NET, MySQL, Firebase, and more.
         </p>
         <p>
-          I thrive on challenges and am always looking for new opportunities to
+          I thrive on challenges and always looking for new opportunities to
           learning.
         </p>
       </div>

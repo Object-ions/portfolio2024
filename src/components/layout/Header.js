@@ -4,11 +4,13 @@ import NavbarLinks from './NavbarLinks';
 
 const Header = () => {
   const [windowLength, setWindowLength] = useState(window.innerWidth);
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
   const [displayName, setDisplayName] = useState('Moses Poston');
 
   useEffect(() => {
     const handleResize = () => {
       setWindowLength(window.innerWidth);
+      setWindowHeight(window.innerHeight);
     };
 
     window.addEventListener('resize', handleResize);
@@ -67,7 +69,7 @@ const Header = () => {
       </Link>
       <div className="header-links">
         <div className="internal-links">
-          {windowLength <= 820 && (
+          {windowLength <= 650 && (
             <Link to="/">
               <h3>{'>'} About</h3>
             </Link>
@@ -80,7 +82,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="external-links">
-          {windowLength <= 820 && <NavbarLinks />}
+          {(windowLength <= 650 || windowHeight <= 1050) && <NavbarLinks />}
         </div>
       </div>
     </div>

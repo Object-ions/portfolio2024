@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
       <ul className="tags">
         {project.tags.map((tag, index) => (
           <li className="tag" key={index}>
-            {tag}
+            #{tag}
           </li>
         ))}
       </ul>
