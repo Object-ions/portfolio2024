@@ -17,12 +17,12 @@ const Navbar = () => {
             Programming
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to={'/design'}>
             <small>{'>'} </small>
             Design
           </Link>
-        </li>
+        </li> */}
         <li className="space"> </li>
       </ul>
       <NavbarLinks />

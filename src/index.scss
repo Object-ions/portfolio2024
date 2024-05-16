@@ -217,6 +217,18 @@ ul {
         color: $colorSpecial;
       }
     }
+
+    .about-link {
+      background: $colorSpecial;
+      padding: 0.25rem;
+      width: calc(50% - 1rem);
+
+      a {
+        display: flex;
+        justify-content: center;
+        color: #000;
+      }
+    }
   }
 
   .programming {

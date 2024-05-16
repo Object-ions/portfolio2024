@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -30,6 +31,9 @@ const About = () => {
       <div className="about-contact">
         <h3>Let’s create something together</h3>
         <p>@ : moshikatia@gmail.com</p>
+      </div>
+      <div className="about-link">
+        <Link to="/programming"> {'> '}Check out my projects</Link>
       </div>
     </div>
   );
