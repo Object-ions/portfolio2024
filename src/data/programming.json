@@ -2,8 +2,8 @@
   {
     "id": 13,
     "tech": "react",
-    "title": "Pure Mineral Aesthetics",
-    "description": "This project is a conceptual mockup website designed and developed for a skincare and spa business. It's aimed at clients who own or are planning to start a skincare company and require a web presence that reflects the quality and ethos of their brand.",
+    "title": "KAMEA",
+    "description": "This project is a e-commerce website designed and developed for a skincare and spa business located in Santa Fe, NM. It's aimed at clients who own or are planning to start a skincare company and require a web presence that reflects the quality and ethos of their brand.",
     "tags": [
       "React",
       "JavaScript",
@@ -14,12 +14,8 @@
       "Firestore",
       "NoSQL"
     ],
-    "live": ["https://pure-mineral.netlify.app/"],
-    "github": "https://github.com/Object-ions/pure-mineral-aesthetics",
-    "images": [
-      "/images/pure-mineral/pure-mineral-1.png",
-      "/images/pure-mineral/pure-mineral-2.png"
-    ]
+    "live": ["https://kamea.netlify.app/"],
+    "images": ["/images/kamea/kamea-1.png", "/images/kamea/kamea-2.png"]
   },
   {
     "id": 12,

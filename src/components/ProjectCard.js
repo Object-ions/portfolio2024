@@ -33,18 +33,20 @@ const ProjectCard = ({ project }) => {
             />
           </span>
         </a>
-        <a
-          href={project.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="github"
-        >
-          GitHub Repo
-          <FontAwesomeIcon
-            icon={faArrowUpRightFromSquare}
-            style={{ fontSize: '12px' }}
-          />
-        </a>
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github"
+          >
+            GitHub Repo
+            <FontAwesomeIcon
+              icon={faArrowUpRightFromSquare}
+              style={{ fontSize: '12px' }}
+            />
+          </a>
+        )}
       </div>
       <div className="images">
         {project.images.map((image, index) => (
