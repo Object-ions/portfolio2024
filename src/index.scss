@@ -120,6 +120,11 @@ ul {
 
     .internal-links {
       width: auto;
+
+      a {
+        font-family: $fontHeader;
+        line-height: 1.2;
+      }
     }
 
     .external-links {
