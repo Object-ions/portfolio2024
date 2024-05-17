@@ -48,6 +48,7 @@ const ProjectCard = ({ project }) => {
           </a>
         )}
       </div>
+      <br />
       <div className="images">
         {project.images.map((image, index) => (
           <div
