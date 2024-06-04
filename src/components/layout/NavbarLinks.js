@@ -6,7 +6,7 @@ const NavbarLinks = () => {
     <ul>
       <li>
         <a
-          href="https://drive.google.com/file/d/16LSWVlrbbsWXcR-21C0kJ7n1mTED6C0T/view?usp=sharing"
+          href="https://drive.google.com/file/d/1RUY8Na1rKY4c2dkPV12mJx3X7mXPVG8w/view?usp=sharing"
           alt="resume"
           target="_blank"
           rel="noopener noreferrer"
