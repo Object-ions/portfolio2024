@@ -1,5 +1,23 @@
 [
   {
+    "id": 14,
+    "tech": "react",
+    "title": "Support Ticket System",
+    "description": "This project is a MERN stack application with authentication, where users can create support tickets and add notes to them. The system includes features for creating new tickets, viewing existing tickets, and updating ticket statuses.",
+    "tags": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.JS",
+      "JavaScript",
+      "Redux",
+      "SASS",
+      "Webpack"
+    ],
+    "live": ["https://supportdeskappmosesa-728926f0cf29.herokuapp.com/"],
+    "images": ["/images/support/support-1.png", "/images/support/support-2.png"]
+  },
+  {
     "id": 13,
     "tech": "react",
     "title": "KAMEA",
