@@ -1,23 +1,5 @@
 [
   {
-    "id": 14,
-    "tech": "react",
-    "title": "Support Ticket System",
-    "description": "This project is a MERN stack application with authentication, where users can create support tickets and add notes to them. The system includes features for creating new tickets, viewing existing tickets, and updating ticket statuses.",
-    "tags": [
-      "MongoDB",
-      "Express",
-      "React",
-      "Node.JS",
-      "JavaScript",
-      "Redux",
-      "SASS",
-      "Webpack"
-    ],
-    "live": ["https://supportdeskappmosesa-728926f0cf29.herokuapp.com/"],
-    "images": ["/images/support/support-1.png", "/images/support/support-2.png"]
-  },
-  {
     "id": 13,
     "tech": "react",
     "title": "KAMEA",
@@ -91,15 +73,20 @@
   {
     "id": 9,
     "tech": "react",
-    "title": "Feedback App",
-    "description": "This project is a Feedback UI application built with React. It allows users to leave feedback for a service or product with a rating and comments. Featuring full CRUD functionality, the application has a clean and intuitive user interface and uses context to manage state within the application.",
-    "tags": ["React", "JavaScript", "HTML", "CSS", "Webpack"],
-    "live": ["https://feedback-app-m-a.netlify.app/"],
-    "github": "https://github.com/Object-ions/feedback-app",
-    "images": [
-      "/images/feedback-app/feedback-1.png",
-      "/images/feedback-app/feedback-2.png"
-    ]
+    "title": "Support Ticket System",
+    "description": "This project is a MERN stack application with authentication, where users can create support tickets and add notes to them. The system includes features for creating new tickets, viewing existing tickets, and updating ticket statuses.",
+    "tags": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.JS",
+      "JavaScript",
+      "Redux",
+      "SASS",
+      "Webpack"
+    ],
+    "live": ["https://supportdeskappmosesa-728926f0cf29.herokuapp.com/"],
+    "images": ["/images/support/support-1.png", "/images/support/support-2.png"]
   },
   {
     "id": 8,
