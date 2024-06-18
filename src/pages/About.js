@@ -20,8 +20,9 @@ const About = () => {
           As my fascination with user experience grew through my transition from
           physical to digital products, it naturally led me to pursue a career
           in full-stack development. In 2024, I graduated from Epicodus,
-          specializing in React and C#. My technical arsenal includes HTML, CSS,
-          JavaScript, Node.js, ASP.NET, MySQL, Firebase, and more.
+          specializing in React and C#. My technical arsenal includes HTML,
+          SCSS, JavaScript, Node.js, Express.js, ASP.NET, MySQL, MongoDB,
+          Firebase, and more.
         </p>
         <p>
           I thrive on challenges and always looking for new opportunities to
