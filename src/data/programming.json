@@ -3,7 +3,7 @@
     "id": 14,
     "tech": "react",
     "title": "Charm Avenue",
-    "description": "This is a full-featured e-Commerce web application built with the MERN stack. The application includes product listings, user authentication, shopping cart, order management, and admin functionality and more. Technologies used: MongoDB, Express, React, Node.js, Redux, React-Bootstrap, SCSS, JWT, Multer, PayPal Developers, Nodemon, Concurrently.",
+    "description": "This is a full-featured e-Commerce web application built with the MERN stack. The application includes product listings, user authentication, shopping cart, order management, and admin functionality. Admins have the ability to create, read, edit, and delete products, users, and orders. Technologies used: MongoDB, Express, React, Node.js, Redux, React-Bootstrap, SCSS, JWT, Multer, PayPal Developers, Nodemon, Concurrently.",
 
     "tags": ["MongoDB", "Express.js", "React", "Node.js", "Redux", "JWT"],
     "live": "https://charm-avenue.onrender.com/",
