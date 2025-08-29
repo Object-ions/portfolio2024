@@ -5,6 +5,19 @@ const ProjectList = ({ projects, onSelectProject }) => {
     <ul className="project-list">
       <>
         <hr className="top-hr" />
+        <h3> {'> '}Client Projects</h3>
+        <hr />
+        {projects.map(
+          (project) =>
+            project.tech === 'WordPress' && (
+              <li key={project.itemId} onClick={() => onSelectProject(project)}>
+                <Link>{project.title}</Link>
+              </li>
+            )
+        )}
+      </>
+      <>
+        <hr className="top-hr" />
         <h3> {'> '}React</h3>
         <hr />
         {projects.map(
@@ -29,6 +42,7 @@ const ProjectList = ({ projects, onSelectProject }) => {
             )
         )}
       </>
+    
       <>
         <hr className="top-hr" />
         <h3>{'> '}Vanilla JS</h3>

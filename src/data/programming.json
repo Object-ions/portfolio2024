@@ -1,5 +1,29 @@
 [
   {
+    "id": 16,
+    "tech": "WordPress",
+    "title": "Zahav Medspa",
+    "description": "A professional WordPress website built for a luxury medspa in Scottsdale, AZ. The site includes custom theme styling, plugin integrations for booking and payments, SEO optimization, and branded marketing content. Managed hosting migration, domain setup, and ongoing performance improvements were also part of the project.",
+    "tags": ["WordPress", "SEO", "Booking Integration", "Branding"],
+    "live": "https://zahavmedspa.com",
+    "github": "",
+    "images": [
+      "/images/zahav/zahav-1.png"
+    ]
+  },
+  {
+    "id": 15,
+    "tech": "WordPress",
+    "title": "Switch Case Studio",
+    "description": "A Renaissance and Baroque art–inspired studio website built with React. Features GSAP-powered animations, responsive SCSS layouts, and modular components. Designed and developed as the digital home for my creative and development studio, blending classical art influence with modern web technologies.",
+    "tags": ["React", "GSAP", "SCSS", "Design"],
+    "live": "https://switchcasestudio.com",
+    "github": "https://github.com/Object-ions/switch-case-studio", 
+    "images": [
+      "/images/switchcase/switchcase-1.png"
+    ]
+  },
+  {
     "id": 14,
     "tech": "react",
     "title": "Charm Avenue",
