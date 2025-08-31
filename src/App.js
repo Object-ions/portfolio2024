@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/layout/Navbar';
 import Header from './components/layout/Header';
 import Programming from './pages/Programming';
 import About from './pages/About';
@@ -15,7 +14,6 @@ function App() {
           <Header />
 
           <main className="main">
-            <Navbar />
             <Routes>
               <Route path="/programming" element={<Programming />} />
               <Route path="/" element={<About />} />
