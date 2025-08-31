@@ -4,7 +4,7 @@ import NavbarLinks from './NavbarLinks';
 const Navbar = () => {
   return (
     <div className="navbar">
-      <ul className="navbar-selection">
+      {/* <ul className="navbar-selection">
         <li>
           <Link to={'/'}>
             <small>{'>'} </small>
@@ -17,14 +17,8 @@ const Navbar = () => {
             Programming
           </Link>
         </li>
-        {/* <li>
-          <Link to={'/design'}>
-            <small>{'>'} </small>
-            Design
-          </Link>
-        </li> */}
         <li className="space"> </li>
-      </ul>
+      </ul> */}
       <NavbarLinks />
     </div>
   );

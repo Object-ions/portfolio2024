@@ -1,5 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import  AtSignIcon  from '../AtSignIcon';
+import  LinkedinIcon  from '../LinkedinIcon';
+import  GithubIcon  from '../GithubIcon';
+import  AttachFileIcon  from '../AttachFileIcon';
 
 const NavbarLinks = () => {
   return (
@@ -12,11 +14,8 @@ const NavbarLinks = () => {
           rel="noopener noreferrer"
           className="outer-link"
         >
-          <small>Resume </small>
-          <FontAwesomeIcon
-            icon={faArrowUpRightFromSquare}
-            style={{ fontSize: '10px' }}
-          />
+          <AtSignIcon size={15}/>
+          <small> : moshikoatia@gmail.com </small>
         </a>
       </li>
       <li>
@@ -27,11 +26,8 @@ const NavbarLinks = () => {
           rel="noopener noreferrer"
           className="outer-link"
         >
-          <small>GitHub </small>
-          <FontAwesomeIcon
-            icon={faArrowUpRightFromSquare}
-            style={{ fontSize: '10px' }}
-          />
+          <GithubIcon size={15}/>
+          <small> : github.com/Object-ions </small>
         </a>
       </li>
       <li>
@@ -42,11 +38,20 @@ const NavbarLinks = () => {
           rel="noopener noreferrer"
           className="outer-link"
         >
-          <small>LinkedIn </small>
-          <FontAwesomeIcon
-            icon={faArrowUpRightFromSquare}
-            style={{ fontSize: '10px' }}
-          />
+          <LinkedinIcon size={15}/>
+          <small> : in/moses-a-p </small>
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://drive.google.com/file/d/1OWV3l2Ih7UGBPn0vxWeP2C1-z7aUDZnl/view?usp=sharing"
+          alt="resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="outer-link"
+        >
+          <AttachFileIcon size={15}/>
+          <small> : resume </small>
         </a>
       </li>
     </ul>

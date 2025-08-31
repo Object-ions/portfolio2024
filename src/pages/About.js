@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import NavbarLinks from '../components/layout/NavbarLinks';
 
 const About = () => {
   return (
@@ -9,29 +9,19 @@ const About = () => {
       </h2>
       <div className="about-text">
         <p>
-          <h3>Hi, my name is Moses,</h3>
-          and my journey began with a deep appreciation for aesthetics, leading
-          me to study Product Design at 'Shenkar College of Engineering and
-          Design'. This background has given me a keen eye for detail and a
-          solid foundation in creating user-friendly designs.
-        </p>
-
-        <p>
-          As my fascination with user experience grew through my transition from
-          physical to digital products, it naturally led me to pursue a career
-          in full-stack development. In 2024, I graduated from Epicodus,
-          specializing in React and C#. My technical arsenal includes HTML,
-          SCSS, JavaScript, Node.js, Express.js, ASP.NET, MySQL, MongoDB,
-          Firebase, and more.
+          <h3>My name is Moses,</h3>
+          and I’m a developer and designer with a love for the web, brand storytelling, and user experience. I enjoy building things that connect creativity with function - from animated interfaces to marketing campaigns that leave an impression.
         </p>
         <p>
-          I thrive on challenges and always looking for new opportunities to
-          learning.
+        I studied Product Design at Shenkar College of Engineering and Design, where I discovered how much I enjoy the intersection of art, technology, and communication. After finishing a full-stack bootcamp, I began working with clients through my agency, Switch Case Studio, creating websites, brand identities, and digital campaigns.
+        </p>
+        <p>
+        I’m currently focused on projects that combine design, modern web technologies, and marketing strategy - whether that means React and Next.js development, SEO-driven content, or campaigns that merge automation with creative storytelling.
         </p>
       </div>
       <div className="about-contact">
-        <h3>Let’s create something together</h3>
-        <p>@ : moshikatia@gmail.com</p>
+        <h3>Let’s create something amazing together</h3>
+        <NavbarLinks />
       </div>
       <div className="about-link">
         <Link to="/programming"> {'> '}Check out my projects</Link>
@@ -41,3 +31,5 @@ const About = () => {
 };
 
 export default About;
+
+
