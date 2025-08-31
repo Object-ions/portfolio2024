@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import NavbarLinks from './NavbarLinks';
 
 const Header = () => {
   return (
